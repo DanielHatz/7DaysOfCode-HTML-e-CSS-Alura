@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 6em;
+}
+
+.cabecalho_titulo {
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho_nome {
+    color: #3A404E;
+    font-weight: 500;
+}
+
+.cabecalho_logo {
+    width: 27px;
+    margin-right: .5em;
+}
+
+.cabecalho_indices {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 32px;
+    width: 45%;
+    
+}
+
+.cabecalho_links {
+    text-decoration: none;
+    color: #667085;
+    font-size: 16px;
+}
+
+.cabecalho_entrar {
+    padding: .8em 1.3em;
+    color: #667085;
+    text-decoration: none;
+}
+
+.cabecalho_cadastrar {
+    padding: .8em 1.3em;
+    background-color: #8E2424;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.cabecalho_cadastrar:hover {
+    background-color: #002c17;
+    transition: .2s;
+}
+
+.cabecalho_secundario {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.cabecalho_secundario-sobre {
+    color: #8E2424;
+    font-weight: 600;
+
+}
+
+.cabecalho_secundario-titulo {
+    font-weight: 600;
+    font-size: 48px;
+    margin: .7em 0;
+}
+
+.cabecalho_secundario-descricao {
+    font-weight: 500;
+    font-size: 19px;
+    padding: 0 6em;
+    line-height: 30px;
+    color: #667085;
+}
+
+.estatisticas {
+    display: flex;
+    align-items: flex-start;
+    margin: 3em 0 0 3em;
+}
+
+.estatisticas_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 25%;
+    margin-right: 4em;
+}
+
+.estatisticas_numero {
+    color:#8E2424;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.estatisticas_nome {
+    color:#101828;
+    font-size: 18px;
+}
+
+.estatisticas_descricao {
+    color: #667085;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.vaga {
+    margin: 9em 0;
+}
+
+.vaga_descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.vaga_about {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.vaga_talentos {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.vaga_sobre {
+    font-size: 20px;
+    color: #667085;
+}
+
+.imagem_reuniao {
+    width: 80%;
+    height: 400px;
+    margin: 0 10%;
+
+}
+
+.informacoes_geral {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-left: 25%;
+    margin-bottom: 8em;
+}
+
+.informacoes_titulo {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.informacoes_vagas {
+    margin: 0 2em;
+}
+
+.informacoes_nome-vaga {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.informacoes_descricao-vaga, .informacoes_descricao-salario {
+    display: inline-block;
+    color: #667085;
+    margin-right: 1em;
+}
+
+.depoimentos {
+    width: 80%;
+    margin: 6em auto;
+}
+
+.depoimento_textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    margin: 0em auto 2em auto;
+}
+
+.depoimento_escrito {
+    font-size: 28px;
+    text-align: center;
+}
+
+.depoimento_perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimento_perfil-imagem {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 8px;
+}
+
+.depoimento_perfil-cargo {
+    font-size: 14px;
+    color: #667085;
+}
+
+.rodape {
+    margin: 5em 0 3em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape_texto {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape_descricao {
+    font-size: 20px;
+    color: #667085;;
+    margin-bottom: 1em;
+}
+
+.rodape_email {
+    padding: 1em;
+    margin-right: 1em;
+    border: 1px solid #818996;
+    border-radius: 6px;
+    width: 30%;
+}
+
+.rodape_cadastrar {
+    padding: 1em 2em;
+    border: none;
+    text-align: center;
+}
+
+.rodape_cadastro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
+.rodape_copyright {
+    color: #98A2B3;
+}
